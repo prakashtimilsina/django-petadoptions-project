@@ -1,3 +1,5 @@
+{% extends "base.html" %}
+{% block content %}
 <div class="">
     <h3 class="">{{ pet.name|capfirst }}</h3>
     <p class="">{{ pet.species }}</p>
@@ -26,3 +28,5 @@
     {% endif %}
 
 </div>
+
+{% endblock content %}
